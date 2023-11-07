@@ -20,9 +20,7 @@ public class Smiley extends JFrame implements MouseListener
 {
     public static void main(String[] args) 
     {
-        new Smiley();     
-        //Frame f=new Frame();
-       
+        new Smiley();           
     }
     int click=0;
     Smiley()
