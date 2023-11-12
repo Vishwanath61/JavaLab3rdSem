@@ -1,5 +1,5 @@
 /*
-1.Write a method addStars that accepts an array list of strings as a parameter and places a *
+3.Write a method addStars that accepts an array list of strings as a parameter and places a *
 before each element. –
 Example: if an array list named list initially stores: [the, quick, brown, fox] –
 Then the call of addStars(list); makes it store: [*, the, *, quick, *, brown, *, fox]
