@@ -1,8 +1,13 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ Student Mark Management
  */
 package javaminiproject;
+
+/**
+ *
+ * @author VISHWA
+ */
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -49,8 +54,8 @@ public class StudentMarkManagement extends JFrame {
 
         if (rollNo != null && !rollNo.isEmpty()) {
             String url = "jdbc:mysql://localhost:3306/student_db";
-            String username = "your_username";
-            String password = "your_password";
+            String username = "AAA";
+            String password = "aaa";
 
             try (Connection connection = DriverManager.getConnection(url, username, password)) {
                 String sql = "SELECT * FROM student_marks WHERE rollno = ?";
@@ -105,7 +110,6 @@ public class StudentMarkManagement extends JFrame {
         public TeacherInputForm() {
             super("Teacher Input Form");
 
-            // UI components
             JPanel panel = new JPanel(new GridLayout(7, 2));
 
             JLabel rollNoLabel = new JLabel("Roll Number:");
@@ -160,8 +164,8 @@ public class StudentMarkManagement extends JFrame {
             int subject5 = Integer.parseInt(subject5Field.getText());
 
             String url = "jdbc:mysql://localhost:3306/student_db";
-            String username = "your_username";
-            String password = "your_password";
+            String username = "AAA";
+            String password = "aaa";
 
             try (Connection connection = DriverManager.getConnection(url, username, password)) {
                 String sql = "INSERT INTO student_marks (rollno, subject1, subject2, subject3, subject4, subject5) " +
