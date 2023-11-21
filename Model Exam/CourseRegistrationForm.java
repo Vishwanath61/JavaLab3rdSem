@@ -1,10 +1,11 @@
 /*
-20.Develop a course registration form with Name, Address, phone number,Gender(Male or Female),
+8.Develop a course registration form with Name, Address, phone number,Gender(Male or Female),
 department(user have to select from CSE, ECE,EEE, Mech, Civil) and 
 course (user have to select from (C,C++,JAVA,PYTHON).
 When the user submits the form, a dialog box should appear with a message “Username , 
 you have successfully enrolled inCourse Name”
- */
+*/
+
 package javamodellab;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
