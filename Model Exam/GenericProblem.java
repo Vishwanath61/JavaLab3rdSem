@@ -27,6 +27,7 @@ public class GenericProblem
         
         System.out.println("\nThe list after swapping index 1,2");
         g.Exchange(intarr,1,2);
+        g.Printarr(intarr);
     }    
 }
 
@@ -75,8 +76,8 @@ class genericapp
         System.out.print("{");
         for(int i=0;i<len-1;i++)
         {
-            System.out.print(i+",");
+            System.out.print(arr[i]+",");
         }
-        System.out.print(arr[len-1]+"}");
+        System.out.println(arr[len-1]+"}");
     }
 }
